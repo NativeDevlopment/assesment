@@ -22,6 +22,7 @@ Requirements with comments in line :
 ● Used version control system (Git)
 
 ## Implemented things
+Clean architecture
 view desgin is using via `Jetpack compose`
 Repository is written in `Kotlin` and is based on `MVVM(ViewModel, LiveData)`
 Dependency Injection is implemented using `Koin`
