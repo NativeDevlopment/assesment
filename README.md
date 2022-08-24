@@ -12,7 +12,7 @@ Requirements with comments in line :
 ● Error handlling.
 
 ● There are 2 sections. MAP, Car list.
-
+● Map screen showing all car markers  and click on markers showing Car details in bottom sheets , Car list screen showing all cars as a list.
 ● All the data is loaded from the provided API calls.
 ● Images are cached efficiently.
 ● API Requests/data loading and showing is done in a way to give the user the best experience.
