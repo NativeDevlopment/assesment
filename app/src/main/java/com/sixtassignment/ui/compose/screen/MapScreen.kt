@@ -1,4 +1,4 @@
-package com.sixtassignment.ui.compose.components
+package com.sixtassignment.ui.compose.screen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -15,7 +15,6 @@ import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.model.*
 import com.google.maps.android.compose.*
 import com.sixtassginment.domain.entity.CarEntity
-import com.sixtassignment.ui.compose.screen.getIconPainter
 import kotlinx.coroutines.launch
 
 

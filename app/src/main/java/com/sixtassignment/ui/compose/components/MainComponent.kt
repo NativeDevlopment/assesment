@@ -24,6 +24,7 @@ import com.google.maps.android.compose.rememberCameraPositionState
 import com.sixtassginment.domain.entity.CarEntity
 import com.sixtassignment.R
 import com.sixtassignment.ui.compose.BottomNavItems
+import com.sixtassignment.ui.compose.screen.GoogleMapView
 import com.sixtassignment.ui.compose.screen.ListBodyContent
 
 

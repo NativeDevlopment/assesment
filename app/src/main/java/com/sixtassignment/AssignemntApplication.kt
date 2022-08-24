@@ -15,7 +15,6 @@ class AssignemntApplication : MultiDexApplication() {
     companion object {
         private lateinit var instance: AssignemntApplication
 
-        private var isAppVisible: Boolean = false
         fun applicationContext(): Context {
             return instance.applicationContext
         }
@@ -30,13 +29,7 @@ class AssignemntApplication : MultiDexApplication() {
             instance = application
         }
 
-        fun isApplicationVisible(): Boolean {
-            return isAppVisible
-        }
 
-        fun setAppVisible(isVisible: Boolean) {
-            isAppVisible = isVisible
-        }
 
 
     }
