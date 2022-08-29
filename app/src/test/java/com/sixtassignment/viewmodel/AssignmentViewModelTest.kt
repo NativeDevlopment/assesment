@@ -70,7 +70,7 @@ class AssignmentViewModelTest : BaseUnitTest(), KoinTest {
     }
 
     @Test
-    fun loadCurrencyListFail() {
+    fun loadCarListFail() {
         mockWebServer.enqueue(
             MockResponse.createMockResponse(
                 "error_response",
