@@ -32,21 +32,12 @@ import org.mockito.stubbing.Answer
 import org.powermock.api.mockito.PowerMockito
 import org.powermock.core.classloader.annotations.PowerMockIgnore
 import org.powermock.core.classloader.annotations.PrepareForTest
-import org.powermock.core.classloader.annotations.SuppressStaticInitializationFor
 import org.powermock.modules.junit4.PowerMockRunner
 
 
-/**
- * Base class for all types of unit test and instrumentation tests
- * All the  initial mocks required for enabling unit testing are done in this class.
- * The class will be using Mockito and PowerMock for mocking purposes
- * Created by Lajesh Dineshkumar on 10/31/2019.
- * Company: Nagarro Middle East
- * Email: lajesh.dineshkumar@nagarro.com
- */
+
 @RunWith(PowerMockRunner::class)
 @PowerMockIgnore("javax.net.ssl.*")
-@SuppressStaticInitializationFor("com.enbd.prepaidcard.common.TokenAuthenticator")
 @PrepareForTest(
     Log::class,
     Handler::class,
